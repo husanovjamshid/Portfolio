@@ -155,10 +155,12 @@ button:focus {
 }
 
 .logo {
-	font-size: 35px;
-	background: -webkit-linear-gradient(#eee, #333);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	font-size: 30px;
+	background: #CACF2E;
+background: linear-gradient(to right, #CACF2E 25%, #C53CCF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
 }
 
 .navbar-nav .nav-link {
@@ -467,7 +469,7 @@ button:focus {
 	background-color: transparent !important;
 	opacity: 0.9 !important;
 	transition: all 0.5s ease 0s !important;
-	height: 100% !important;
+	/* height: 100% !important; */
 }
 .project-card-view:hover {
 	transform: scale(1.02) !important;
@@ -610,6 +612,7 @@ button:focus {
 	padding-bottom: 30px !important;
 	background-image: var(--section-background-color) !important;
 	color: white !important;
+	height: 91vh;
 }
 
 .resume {

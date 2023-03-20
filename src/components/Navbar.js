@@ -39,7 +39,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-         <h4 className="logo">Khusanoff</h4>
+         <h6 className="logo fw-bold">Khusanoff</h6>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
