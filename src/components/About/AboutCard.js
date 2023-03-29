@@ -13,7 +13,13 @@ function AboutCard() {
 								- <span className='purple fw-bold me-2'>Birthday: </span>1 April 2002
 							</li>
 							<li className='about-activity'>
-								- <span className='purple fw-bold me-2'>Website: </span>1 April 2002
+								- <span className='purple fw-bold me-2'>Website: </span>
+								<a
+									className='text-decoration-none text-white'
+									href='https://khusanoff.me/'
+								>
+									khusanoff.me
+								</a>
 							</li>
 							<li className='about-activity'>
 								- <span className='purple fw-bold me-2'>Phone:</span>{' '}
