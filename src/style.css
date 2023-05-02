@@ -457,7 +457,7 @@ background: linear-gradient(to right, #CACF2E 25%, #C53CCF 100%);
 
 .project-card {
 	padding-top: 50px !important;
-	padding-bottom: 50px !important;
+	padding-bottom: 0 !important;
 	padding-left: 25px !important;
 	padding-right: 25px !important;
 	height: auto !important;

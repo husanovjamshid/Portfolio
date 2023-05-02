@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import movie from "../../Assets/Projects/movie.jpg";
+import movie from "../../Assets/Projects/movie.png";
 import book from "../../Assets/Projects/book.png";
 import twitter from "../../Assets/Projects/twitter.png";
+import c1 from '../../Assets/Projects/c1plus.png'
+import dom from '../../Assets/Projects/dom.png'
+import busines from '../../Assets/Projects/busines.png'
 
 function Projects() {
   return (
@@ -21,6 +21,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={c1}
+              isBlog={false}
+              title="C1plus 0 dan C1 gacha"
+              
+              ghLink="https://github.com/husanovjamshid/c1plus.uz"
+              demoLink="http://c1plus.uz/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={movie}
@@ -37,8 +47,19 @@ function Projects() {
               isBlog={false}
               title="Book Shop"
               
+              
               ghLink="https://github.com/husanovjamshid/books-react"
               demoLink="https://book-shop.ogaw.uz/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dom}
+              isBlog={false}
+              title="Kvartira (Startup)"
+              
+              ghLink="https://github.com/husanovjamshid/Apartments-Frontend"
+              demoLink="https://nt-home.netlify.app/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -49,6 +70,16 @@ function Projects() {
               
               ghLink="https://github.com/husanovjamshid/Twitter-Clone-React"
               demoLink="https://nt-twitter-clone.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={busines}
+              isBlog={false}
+              title="Business site"
+              
+              ghLink="https://github.com/husanovjamshid/Businesuz"
+              demoLink="https://businesuz.netlify.app/"
             />
           </Col>
           
