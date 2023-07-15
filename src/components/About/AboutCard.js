@@ -1,6 +1,5 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import { ImPointRight } from 'react-icons/im';
 
 function AboutCard() {
 	return (
@@ -16,9 +15,9 @@ function AboutCard() {
 								- <span className='purple fw-bold me-2'>Website: </span>
 								<a
 									className='text-decoration-none text-white'
-									href='https://khusanoff.me/'
+									href='http://techpro.uz/'
 								>
-									khusanoff.me
+									TechPro.uz
 								</a>
 							</li>
 							<li className='about-activity'>

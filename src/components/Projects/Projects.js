@@ -8,6 +8,8 @@ import twitter from "../../Assets/Projects/twitter.png";
 import c1 from '../../Assets/Projects/c1plus.png'
 import dom from '../../Assets/Projects/dom.png'
 import busines from '../../Assets/Projects/busines.png'
+import iito from '../../Assets/Projects/iito.png'
+import uy from '../../Assets/Projects/uy.png'
 
 function Projects() {
   return (
@@ -31,6 +33,27 @@ function Projects() {
               demoLink="http://c1plus.uz/"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={uy}
+              isBlog={false}
+              title="Uy Joy Baraka (Demo)"
+              
+              ghLink="#"
+              demoLink="https://uyjoy.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={iito}
+              isBlog={false}
+              title="Test Platform (Farobiy IT Center)"
+              
+              ghLink="https://github.com/husanovjamshid/farobiy"
+              demoLink="http://iito.uz/"
+            />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={movie}
