@@ -61,7 +61,7 @@ function Projects() {
               title="Movie Portal"
               
               ghLink="https://github.com/husanovjamshid/Movie-Portal-React"
-              demoLink="https://movie-portal-uz.netlify.app/"
+              demoLink="https://kinolar.ogaw.uz/"
             />
           </Col>
           <Col md={4} className="project-card">
