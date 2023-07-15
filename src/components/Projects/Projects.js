@@ -2,14 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import movie from "../../Assets/Projects/movie.png";
+import movie from "../../Assets/Projects/movie.webp";
 import book from "../../Assets/Projects/book.png";
 import twitter from "../../Assets/Projects/twitter.png";
 import c1 from '../../Assets/Projects/c1plus.png'
-import dom from '../../Assets/Projects/dom.png'
+import dom from '../../Assets/Projects/dom.webp'
 import busines from '../../Assets/Projects/busines.png'
-import iito from '../../Assets/Projects/iito.png'
-import uy from '../../Assets/Projects/uy.png'
+import iito from '../../Assets/Projects/iito.webp'
+import uy from '../../Assets/Projects/uy.webp'
 
 function Projects() {
   return (
