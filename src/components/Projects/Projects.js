@@ -37,7 +37,7 @@ function Projects() {
             <ProjectCard
               imgPath={uy}
               isBlog={false}
-              title="Uy Joy Baraka (Demo)"
+              title="Uy Joy Baraka"
               
               ghLink="#"
               demoLink="https://uyjoybaraka.uz/"
