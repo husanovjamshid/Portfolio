@@ -40,7 +40,7 @@ function Projects() {
               title="Uy Joy Baraka (Demo)"
               
               ghLink="#"
-              demoLink="https://uyjoy.vercel.app/"
+              demoLink="https://uyjoybaraka.uz/"
             />
           </Col>
           <Col md={4} className="project-card">
